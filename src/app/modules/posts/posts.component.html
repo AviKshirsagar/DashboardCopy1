@@ -1,1 +1,48 @@
 <p>posts works!</p>
+
+
+<!----------------------------Fake API Consume--------------------------->
+<h3>GET Request for : - <small>https://jsonplaceholder.typicode.com/posts</small></h3>
+<div class="container">
+    <table border="1px solid black">
+        <tr>
+            <th>User ID</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+        <tr *ngFor="let usr of listUser">
+            <td>{{usr.userId}}</td>
+            <td>{{usr.id}}</td>
+            <td>{{usr.title}}</td>
+            <td>{{usr.body}}</td>
+        </tr>
+    </table>
+</div>
+<!-------------------------Fake API end -------------------------------------->
+
+
+<!-------------------------Real API end -------------------------------------->
+<!-- <h3>GET Request for : - <small>http://localhost:5000/user/getall</small></h3>
+<div class="container">
+    <table border="1px solid black">
+        <tr>
+            <th>EMAIL</th>
+            <th>ID</th>
+            <th>NAME</th>
+            <th>PASSWORD</th>
+            <th>PHONE</th>
+            <th>ROLE</th>
+        </tr>
+        <tr *ngFor="let usr of listUser">
+            <td>{{usr.email}}</td>
+            <td>{{usr.id}}</td>
+            <td>{{usr.name}}</td>
+            <td>{{usr.password}}</td>
+            <td>{{usr.phone}}</td>
+            <td>{{usr.role}}</td>
+        </tr>
+    </table>
+</div> -->
+
+<!-------------------------Real API end -------------------------------------->
