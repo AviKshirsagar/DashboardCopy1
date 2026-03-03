@@ -7,13 +7,14 @@ import { PostsComponent } from 'src/app/modules/posts/posts.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatSidenavModule, MatDividerModule, MatCardModule } from '@angular/material';
-
+import { AboutComponent } from 'src/app/modules/about/about.component';
 
 
 @NgModule({
   declarations: [DefaultComponent,
                   DashboardComponent,
-                  PostsComponent],
+                  PostsComponent,
+                  AboutComponent],
   imports: [
     CommonModule,
     RouterModule,
